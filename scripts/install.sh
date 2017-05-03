@@ -12,7 +12,7 @@ salt '*' saltutil.sync_all
 sleep 15
 
 # Bootstrap all nodes
-salt "*" state.sls linux,openssh,salt.minion,ntp,rsyslog
+salt "*" state.sls linux,openssh,salt.minion,ntp
 
 # Create and distribute SSL certificates for services using salt state
 salt '*' state.sls salt
