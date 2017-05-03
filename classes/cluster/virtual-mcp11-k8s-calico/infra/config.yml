@@ -41,8 +41,7 @@ parameters:
         prx_node:
           name: ${_param:kubernetes_proxy_node01_hostname}
           domain: ${_param:cluster_domain}
-          classes:
-          - cluster.${_param:cluster_name}.monitoring.proxy
+          classes: []
           params:
             salt_master_host: ${_param:infra_config_deploy_address}
             linux_system_codename: xenial
