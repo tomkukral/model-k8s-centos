@@ -30,6 +30,9 @@ parameters:
     kubernetes_compute_node02_address: 172.16.10.106
     kubernetes_proxy_node01_hostname: prx01
     kubernetes_proxy_node01_address: 172.16.10.121
+    kubernetes_monitor_node01_hostname: mon01
+    kubernetes_monitor_node01_address: 172.16.10.107
+
 
     cluster_vip_address: ${_param:kubernetes_control_address}
     cluster_local_address: ${_param:single_address}
