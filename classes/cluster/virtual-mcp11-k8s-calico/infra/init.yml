@@ -1,14 +1,8 @@
 classes:
 - system.linux.system.single
 - system.openssh.server.team.lab
-- system.openssh.server.team.stacklight
 - system.openssh.server.team.tcpcloud
-- system.openssh.server.team.mcp_qa
-- system.rsyslog.client.single
-- system.telegraf.agent
 - cluster.virtual-mcp11-k8s-calico.kubernetes
-- cluster.virtual-mcp11-k8s-calico.monitoring
-- cluster.virtual-mcp11-k8s-calico.swarm
 - cluster.overwrite
 parameters:
   _param:
